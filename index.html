@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroCyndicate - Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+        
+        h1 {
+            color: #2d3748;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            color: #718096;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .link-button {
+            display: block;
+            padding: 18px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .link-button:active {
+            transform: translateY(0);
+        }
+        
+        .link-icon {
+            margin-right: 10px;
+        }
+        
+        .streamers {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .streamers h2 {
+            color: #2d3748;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .streamer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+        
+        .streamer-link {
+            padding: 10px;
+            background: #f7fafc;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #667eea;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        
+        .streamer-link:hover {
+            background: #edf2f7;
+        }
+        
+        footer {
+            margin-top: 30px;
+            color: #a0aec0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">
+                🎮
+            </div>
+            
+            <h1>RetroCyndicate</h1>
+            <p class="tagline">24/7 Gaming Stream Collective ✊🏿</p>
+            
+            <div class="links">
+                <a href="https://twitch.tv/retrocyndicate" class="link-button">
+                    <span class="link-icon">📺</span>
+                    Watch Live on Twitch
+                </a>
+                
+                <a href="https://twitter.com/YOUR_TWITTER" class="link-button">
+                    <span class="link-icon">🐦</span>
+                    Follow on Twitter
+                </a>
+                
+                <a href="https://discord.gg/YOUR_DISCORD" class="link-button">
+                    <span class="link-icon">💬</span>
+                    Join Discord
+                </a>
+                
+                <a href="https://youtube.com/@YOUR_YOUTUBE" class="link-button">
+                    <span class="link-icon">▶️</span>
+                    Subscribe on YouTube
+                </a>
+            </div>
+            
+            <div class="streamers">
+                <h2>Featured Streamers</h2>
+                <div class="streamer-grid">
+                    <a href="https://twitch.tv/justkitt" class="streamer-link">@JustKitt</a>
+                    <a href="https://twitch.tv/cliff_c718" class="streamer-link">@Cliff_C718</a>
+                    <a href="https://twitch.tv/jiffyny" class="streamer-link">@JiffyNY</a>
+                    <a href="https://twitch.tv/vap_myo" class="streamer-link">@vap_myo</a>
+                    <a href="https://twitch.tv/bkdragon1985" class="streamer-link">@bkdragon1985</a>
+                    <a href="https://twitch.tv/foxiekat" class="streamer-link">@FoxieKat</a>
+                    <a href="https://twitch.tv/1ijay" class="streamer-link">@1iJay</a>
+                    <a href="https://twitch.tv/severedsev" class="streamer-link">@severedsev</a>
+                    <a href="https://twitch.tv/madd_relz" class="streamer-link">@Madd_Relz</a>
+                    <a href="https://twitch.tv/myogeneral" class="streamer-link">@myogeneral</a>
+                </div>
+            </div>
+            
+            <footer>
+                🧈 Buttery smooth streams, 24/7
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
